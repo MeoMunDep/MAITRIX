@@ -131,7 +131,7 @@ _Note: each row for each account_
 
 ## Contact and Support
 
-- **Help me with your referral** [MAITRIX Link](https://app.testnet.themaitrix.ai/#/home)
+- **Help me with your referral** [MAITRIX Link](https://app.testnet.themaitrix.ai/#/home) | [GALXE Tasks](https://app.galxe.com/quest/FUPyKccXmgcMMPVUQi2aF4)
 - **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
 
 If you encounter any issues or have questions, feel free to reach out:
