@@ -38,11 +38,11 @@ echo Checking node_modules location...
 if exist "..\node_modules" (
     cd ..
     echo Installing/Updating dependencies in parent directory...
-    npm install user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx readline-sync moment lodash
+    npm install user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ethers web3
     cd %~dp0
 ) else (
     echo Installing dependencies in current directory...
-    npm install user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx readline-sync moment lodash
+    npm install user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js web3 ethers
 )
 echo.
 echo Dependencies installation completed!
@@ -66,9 +66,9 @@ if not exist configs.json (
     echo Created configs.json
 )
 
-if not exist datas.txt (
-    type nul > datas.txt
-    echo Created datas.txt
+if not exist privateKeys.txt (
+    type nul > privateKeys.txt
+    echo Created privateKeys.txt
 )
 if not exist wallets.txt (
     type nul > wallets.txt
