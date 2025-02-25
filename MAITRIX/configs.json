@@ -5,5 +5,6 @@
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 1000
+  "howManyAccountsRunInOneTime": 1,
+  "amountOfAUSDStaking": 0.1
 }
