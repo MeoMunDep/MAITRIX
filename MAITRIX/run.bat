@@ -53,19 +53,6 @@ goto MENU
 cls
 echo Creating configuration files...
 
-if not exist configs.json (
-    echo {> configs.json
-    echo   "timeZone": "en-US",>> configs.json
-    echo   "rotateProxy": false,>> configs.json
-    echo   "skipInvalidProxy": false,>> configs.json
-    echo   "proxyRotationInterval": 2,>> configs.json
-    echo   "delayEachAccount": [5, 8],>> configs.json
-    echo   "timeToRestartAllAccounts": 300,>> configs.json
-    echo   "howManyAccountsRunInOneTime": 100>> configs.json
-    echo }>> configs.json
-    echo Created configs.json
-)
-
 if not exist privateKeys.txt (
     type nul > privateKeys.txt
     echo Created privateKeys.txt
