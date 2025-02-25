@@ -71,9 +71,10 @@ This file controls the bot’s behavior. Below is an example configuration:
   "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
+  "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100
+  "howManyAccountsRunInOneTime": 1,
+  "amountOfAUSDStaking": 0.1
 }
 ```
 
@@ -83,6 +84,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `skipInvalidProxy`: Skip invalid proxies if `true`.
   - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
+  - `amountOfAUSDStaking`: Amount of AUSD to stake.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
 
