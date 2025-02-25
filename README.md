@@ -1,5 +1,6 @@
 # 🚀 Bot Setup Instructions
 
+
 Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
 
 > [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
@@ -134,7 +135,7 @@ _Note: each row for each account_
 ## Contact and Support
 
 - **Help me with your referral** [MAITRIX Link](https://app.testnet.themaitrix.ai/#/home) | [GALXE Tasks](https://app.galxe.com/quest/FUPyKccXmgcMMPVUQi2aF4)
-- **ARB SEPOLIA faucet**: [1](https://faucet.quicknode.com/arbitrum/sepolia) - [2](https://www.alchemy.com/faucets/arbitrum-sepolia) - [3](https://bridge.arbitrum.io/) 
+- **ARB SEPOLIA faucet**: [1](https://faucet.quicknode.com/arbitrum/sepolia) - [2](https://www.alchemy.com/faucets/arbitrum-sepolia) - [3](https://bridge.arbitrum.io/) | Access these link to bridge SEPOLIA to ARBITRUM SEPOLIA - [1](https://rinkeby.orbiter.finance/en?dest=G%C3%B6rli&src_chain=11155111&tgt_chain=421614&src_token=ETH) - [2](https://testnets.relay.link/bridge/arbitrum-sepolia?fromChainId=11155111&fromCurrency=0xfff9976782d46cc05630d1f6ebab18b2324d6b14&toCurrency=0x0000000000000000000000000000000000000000)
 - **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
 
 If you encounter any issues or have questions, feel free to reach out:
