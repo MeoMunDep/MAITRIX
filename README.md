@@ -73,8 +73,8 @@ This file controls the bot’s behavior. Below is an example configuration:
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 1,
-  "amountOfAUSDStaking": 0.1
+  "howManyAccountsRunInOneTime": 46,
+  "amountOfAUSDStaking": [0.1, 0.5]
 }
 ```
 
