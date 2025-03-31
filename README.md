@@ -44,7 +44,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
    Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
 
    ```bash
-   npm install --force user-agents axios colors p-limit https-proxy-agent socks-proxy-agent ethers web3
+   npm install --force user-agents axios colors https-proxy-agent socks-proxy-agent ethers web3
    ```
 
    If you encounter an Execution Policy error on Windows, run:
@@ -105,12 +105,17 @@ _Note: Each row for each account_
 ### 3. `proxies.txt` - 🌐 Proxy List (Optional)
 
 If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
+- [Get it from here](https://www.webshare.io/?referral_code=4l5kb3glsce7)
 
 ```txt
-http://user:password@host:port
-https://user:password@host:port
-socks4://user:password@host:port
-socks5://user:password@host:port
+http://host:port
+https://host:port
+socks4://host:port
+socks5://host:port
+http://user:pass@host:port
+https://user:pass@host:port
+socks4://user:pass@host:port
+socks5://user:pass@host:port
 ```
 
 _Note: each row for each account_
