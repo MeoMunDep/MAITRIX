@@ -1,10 +1,13 @@
 {
-  "timeZone": "en-US",
   "rotateProxy": false,
   "skipInvalidProxy": true,
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 46,
-  "amountOfAUSDStaking": [0.1, 0.5]
+  "howManyAccountsRunInOneTime": 1,
+
+  "staking": {
+    "enable": true,
+    "amount": [0.1, 0.2]
+  }
 }
