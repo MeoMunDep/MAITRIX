@@ -69,12 +69,16 @@ This file controls the bot’s behavior. Below is an example configuration:
 ```json
 {
   "rotateProxy": false,
-  "skipInvalidProxy": false,
+  "skipInvalidProxy": true,
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 46,
-  "amountOfAUSDStaking": [0.1, 0.5]
+  "howManyAccountsRunInOneTime": 1,
+
+  "staking": {
+    "enable": true,
+    "amount": [0.1, 0.2]
+  }
 }
 ```
 
@@ -83,7 +87,9 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `skipInvalidProxy`: Skip invalid proxies if `true`.
   - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
-  - `amountOfAUSDStaking`: Amount of AUSD to stake.
+  - `staking`: Staking selection.
+   - `enable`: Skip staking by `true`
+   - `amount`: Number of token to stake.
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
 
