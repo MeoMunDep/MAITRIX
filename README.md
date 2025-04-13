@@ -75,6 +75,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 1,
 
+  "faucet": false,
   "staking": {
     "enable": true,
     "amount": [0.1, 0.2]
@@ -85,6 +86,7 @@ This file controls the bot’s behavior. Below is an example configuration:
 - **Fields Explained:**
   - `rotateProxy`: Enable or disable proxy rotation.
   - `skipInvalidProxy`: Skip invalid proxies if `true`.
+  - `faucet`: Enable faucet if `true`.
   - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `staking`: Staking selection.
