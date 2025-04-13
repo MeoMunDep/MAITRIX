@@ -33,15 +33,17 @@ fi
 create_default_configs() {
     cat > configs.json << EOL
 {
-  "timeZone": "en-US",
   "rotateProxy": false,
   "skipInvalidProxy": true,
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 46,
+  "howManyAccountsRunInOneTime": 1,
 
-  "amountOfAUSDStaking": [0.1, 0.5]
+  "staking": {
+    "enable": true,
+    "amount": [0.1, 0.2]
+  }
 }
 EOL
 }
