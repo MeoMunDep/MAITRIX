@@ -40,7 +40,8 @@ create_default_configs() {
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 1,
 
-  "faucet": false,
+  "faucet": true,
+  "mint": false,
   "staking": {
     "enable": true,
     "amount": [0.1, 0.2]
