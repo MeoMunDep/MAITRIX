@@ -75,7 +75,8 @@ This file controls the bot’s behavior. Below is an example configuration:
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 1,
 
-  "faucet": false,
+  "mint": true,
+  "faucet": true,
   "staking": {
     "enable": true,
     "amount": [0.1, 0.2]
