@@ -1,1 +1,1 @@
-console.log(`Do you want me to complete this script?`)
+console.log(`Lack of stars, someone trolling me by give fake stars...`)
