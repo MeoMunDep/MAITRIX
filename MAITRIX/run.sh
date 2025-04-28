@@ -41,7 +41,7 @@ create_default_configs() {
   "howManyAccountsRunInOneTime": 1,
 
   "faucet": true,
-  "mint": false,
+  "mint": true,
   "staking": {
     "enable": true,
     "amount": [0.1, 0.2]
