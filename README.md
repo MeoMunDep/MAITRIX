@@ -84,17 +84,22 @@ This file controls the bot’s behavior. Below is an example configuration:
 }
 ```
 
-- **Fields Explained:**
-  - `rotateProxy`: Enable or disable proxy rotation.
-  - `skipInvalidProxy`: Skip invalid proxies if `true`.
-  - `faucet`: Enable faucet if `true`.
-  - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
-  - `delayEachAccount`: Random delay range (in seconds) between accounts.
-  - `staking`: Staking selection.
-   - `enable`: Skip staking by `true`
-   - `amount`: Number of token to stake.
-  - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
-  - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
+# Configuration Fields
+
+| Field                        | Type      | Description                                                                                  |
+|-------------------------------|-----------|----------------------------------------------------------------------------------------------|
+| `rotateProxy`                 | `boolean` | Enable or disable proxy rotation.                                                           |
+| `skipInvalidProxy`            | `boolean` | If `true`, skip invalid proxies and continue.                                               |
+| `proxyRotationInterval`       | `number`  | Time interval (in minutes) for rotating proxies.                                             |
+| `delayEachAccount`            | `array`   | Random delay range (in seconds) between accounts. Example: `[1, 1]` means fixed 1 second.    |
+| `timeToRestartAllAccounts`    | `number`  | Time (in seconds) to restart all accounts.                                                   |
+| `howManyAccountsRunInOneTime` | `number`  | Number of accounts to run simultaneously.                                                   |
+| `mint`                        | `boolean` | Enable minting if `true`.                                                                   |
+| `faucet`                      | `boolean` | Enable faucet if `true`.                                                                    |
+| `staking.enable`              | `boolean` | Enable or disable staking. If `true`, staking will be performed.                             |
+| `staking.amount`              | `array`   | Range of tokens to stake. Example: `[0.1, 0.2]` means random between 0.1 and 0.2 tokens.      |
+
+---
 
 ### 2. `privateKeys.txt` - 💼 Wallet Addresses
 
