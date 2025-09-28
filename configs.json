@@ -11,15 +11,15 @@
   "staking": {
     "enable": true,
     "amount": {
-      "AUSD": [10, 20],
-      "USDe": [5, 10],
-      "LVLUSD": [1, 5],
-      "vUSD": [2, 8],
-      "VANAUSD": [1, 5],
+      "AUSD": [10, 50],
+      "USDe": [10, 50],
+      "LVLUSD": [10, 50],
+      "vUSD": [5, 10],
+      "VANAUSD": [10, 50],
       "azUSD": [1, 5],
       "stATH": [1, 5],
-      "0USD": [1, 5],
-      "USD1": [1, 5]
+      "0USD": [10, 50],
+      "USD1": [10, 20]
     }
   }
 }
