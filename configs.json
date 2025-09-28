@@ -3,13 +3,23 @@
   "skipInvalidProxy": true,
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 1],
-  "timeToRestartAllAccounts": 300,
+  "timeToRestartAllAccounts": 86400,
   "howManyAccountsRunInOneTime": 1,
 
   "faucet": true,
   "mint": true,
   "staking": {
     "enable": true,
-    "amount": [0.1, 0.2]
+    "amount": {
+      "AUSD": [10, 20],
+      "USDe": [5, 10],
+      "LVLUSD": [1, 5],
+      "vUSD": [2, 8],
+      "VANAUSD": [1, 5],
+      "azUSD": [1, 5],
+      "stATH": [1, 5],
+      "0USD": [1, 5],
+      "USD1": [1, 5]
+    }
   }
 }
