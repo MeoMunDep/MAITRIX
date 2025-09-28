@@ -37,14 +37,24 @@ create_default_configs() {
   "skipInvalidProxy": true,
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 1],
-  "timeToRestartAllAccounts": 300,
+  "timeToRestartAllAccounts": 86400,
   "howManyAccountsRunInOneTime": 1,
 
   "faucet": true,
   "mint": true,
   "staking": {
     "enable": true,
-    "amount": [0.1, 0.2]
+    "amount": {
+      "AUSD": [10, 50],
+      "USDe": [10, 50],
+      "LVLUSD": [10, 50],
+      "vUSD": [5, 10],
+      "VANAUSD": [10, 50],
+      "azUSD": [1, 5],
+      "stATH": [1, 5],
+      "0USD": [10, 50],
+      "USD1": [10, 20]
+    }
   }
 }
 EOL
@@ -77,7 +87,7 @@ print_green "Configuration files have been checked."
 
 print_yellow "Checking dependencies..."
 cd "$MODULES_DIR"
-npm install user-agents axios meo-forkcy-colors meo-forkcy-utils https-proxy-agent socks-proxy-agent ethers web3 
+npm install user-agents axios meo-forkcy-colors meo-forkcy-utils meo-forkcy-proxy meo-forkcy-logger ethers
 cd - > /dev/null
 print_green "Dependencies installation completed!"
 
