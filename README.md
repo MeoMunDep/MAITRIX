@@ -44,7 +44,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
    Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
 
    ```bash
-   npm install --force user-agents axios meo-forkcy-colors meo-forkcy-utils https-proxy-agent socks-proxy-agent ethers web3
+   npm install --force user-agents axios meo-forkcy-colors meo-forkcy-utils meo-forkcy-proxy meo-forkcy-logger ethers
    ```
 
    If you encounter an Execution Policy error on Windows, run:
@@ -72,14 +72,24 @@ This file controls the bot’s behavior. Below is an example configuration:
   "skipInvalidProxy": true,
   "proxyRotationInterval": 2,
   "delayEachAccount": [1, 1],
-  "timeToRestartAllAccounts": 300,
+  "timeToRestartAllAccounts": 86400,
   "howManyAccountsRunInOneTime": 1,
 
-  "mint": true,
   "faucet": true,
+  "mint": true,
   "staking": {
     "enable": true,
-    "amount": [0.1, 0.2]
+    "amount": {
+      "AUSD": [10, 50],
+      "USDe": [10, 50],
+      "LVLUSD": [10, 50],
+      "vUSD": [5, 10],
+      "VANAUSD": [10, 50],
+      "azUSD": [1, 5],
+      "stATH": [1, 5],
+      "0USD": [10, 50],
+      "USD1": [10, 20]
+    }
   }
 }
 ```
