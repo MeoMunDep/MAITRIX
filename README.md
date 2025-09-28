@@ -1,7 +1,5 @@
-# 🚀 Bot Setup Instructions
 
-<details>
-<summary>Click to Expand/Collapse Full Guide</summary>
+# 🚀 Bot Setup Instructions
 
 Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
 
@@ -14,14 +12,17 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
 1. [Prerequisites](#prerequisites)
 2. [Installation Steps](#installation-steps)
 3. [Configuration Files](#configuration-files)
-   - [`configs.json`](#1-configsjson)
-   - [`privateKeys.txt`](#2-privateKeystxt)
-   - [`wallets.txt`](#3-walletstxt)
-   - [`proxies.txt`](#4-proxiestxt)
+   - [`configs.json`](#configsjson)
+   - [`privateKeys.txt`](#privatekeystxt)
+   - [`wallets.txt`](#walletstxt)
+   - [`proxies.txt`](#proxiestxt)
 4. [Running the Bot](#running-the-bot)
 5. [Contact and Support](#contact-and-support)
 
 ---
+
+<details>
+<summary>Prerequisites</summary>
 
 ## Prerequisites
 
@@ -34,40 +35,45 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 
 -> Double click on `run.bat` for windows or `run.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
 
----
+</details>
+
+<details>
+<summary>Installation Steps</summary>
 
 ## Installation Steps
 
-1. **Download and Extract the Bot Files:**
-
+1. **Download and Extract the Bot Files:**  
    - Extract the bot package into a folder on your computer.
 
-2. **Install Dependencies:**
+2. **Install Dependencies:**  
    Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
 
-   ```bash
-   npm install --force user-agents axios meo-forkcy-colors meo-forkcy-utils meo-forkcy-proxy meo-forkcy-logger ethers
-   ```
+```bash
+npm install --force user-agents axios meo-forkcy-colors meo-forkcy-utils meo-forkcy-proxy meo-forkcy-logger ethers
+````
 
 If you encounter an Execution Policy error on Windows, run:
 
-   ```bash
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-   ```
+```bash
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
 
 Then, run the npm install command again.
 
 3. **Prepare Configuration Files:**
 
-   * Ensure all configuration files are set up correctly before running the bot (see [Configuration Files](#configuration-files) section).
+   * Ensure all configuration files are set up correctly before running the bot (see Configuration Files section).
 
----
+</details>
+
+<details>
+<summary>Configuration Files</summary>
 
 ## Configuration Files
 
-### 1. `configs.json` - 📜 Adjust Bot Settings
+### `configs.json` - 📜 Adjust Bot Settings
 
-This file controls the bot’s behavior. Below is an example configuration:
+This file controls the bot’s behavior. Example:
 
 ```json
 {
@@ -77,7 +83,6 @@ This file controls the bot’s behavior. Below is an example configuration:
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 86400,
   "howManyAccountsRunInOneTime": 1,
-
   "faucet": true,
   "mint": true,
   "staking": {
@@ -97,9 +102,7 @@ This file controls the bot’s behavior. Below is an example configuration:
 }
 ```
 
-...
-
-### 2. `privateKeys.txt` - 💼 Wallet Addresses
+### `privateKeys.txt` - 💼 Wallet Addresses
 
 * Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 * EVM privatekey.
@@ -110,11 +113,9 @@ This file controls the bot’s behavior. Below is an example configuration:
 0x...
 ```
 
-...
+### `proxies.txt` - 🌐 Proxy List (Optional)
 
-### 3. `proxies.txt` - 🌐 Proxy List (Optional)
-
-If you are using proxies, add them here. Leave the file blank if you are not using proxies. Supported formats:
+Supported formats:
 
 ```txt
 http://host:port
@@ -127,36 +128,46 @@ socks4://user:pass@host:port
 socks5://user:pass@host:port
 ```
 
----
+</details>
+
+<details>
+<summary>Running the Bot</summary>
 
 ## Running the Bot
 
 1. Navigate to the folder containing the bot files:
 
-   ```bash
-   cd /path/to/maitrix
-   ```
+```bash
+cd /path/to/maitrix
+```
 
 2. Run the bot using the following command:
 
-   ```bash
-   node meomundep.js
-   ```
+```bash
+node meomundep.js
+```
 
----
+</details>
+
+<details>
+<summary>Contact and Support</summary>
 
 ## Contact and Support
 
 * **Help me with your referral** [MAITRIX Link](https://app.testnet.themaitrix.ai/#/home) | [GALXE Tasks](https://app.galxe.com/quest/FUPyKccXmgcMMPVUQi2aF4)
+
 * **ARB SEPOLIA faucet**: [1](https://faucet.quicknode.com/arbitrum/sepolia) - [2](https://www.alchemy.com/faucets/arbitrum-sepolia) - [3](https://bridge.arbitrum.io/)
+
 * **Buy me a telegram account** [Here](https://t.me/KeoAirDropFreeNe/312/27801) or [Here](https://github.com/MeoMunDep/MeoMunDep)
 
-If you encounter any issues or have questions, feel free to reach out:
-
 * **Contact:** [Contact Me](https://t.me/MeoMunDep)
+
 * **Group:** [Join the Group](https://t.me/KeoAirDropFreeNe)
+
 * **Channel:** [Visit the Channel](https://t.me/KeoAirDropFreeNee)
 
 Enjoy using the bot! 🚀
 
 </details>
+```
+
